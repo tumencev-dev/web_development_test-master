@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "Europe Normal";
+	src: url("../fonts/europe-normal/europe-normal.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/europe-normal/europe-normal.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/europe-normal/europe-normal.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/europe-normal/europe-normal.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/europe-normal/europe-normal.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/europe-normal/europe-normal.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/europe-normal/europe-normal.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    margin: auto;
+    width: 1024px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 22px;
+}
+
+header p {
+    color: #eb5017;
+    font: 18px Europe Normal;
+    margin: 0;
+    margin-bottom: 6px;
+
+}
+
+header img {
+    margin-top: 24px;
+}
+
+header div {
+    margin-right: 12px;
+    margin-top: 40px;
+}
+
+nav {
+    background-color: #231f1f;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    font: 14px Arial;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #eb5017;
+    padding: 16px 36px;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+    font: 14px Arial;
+}
+
+footer {
+    background-color: #231f1f;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 12px 0px 30px 60px;
+    position: fixed;
+    bottom: 0;
+    width: 940px;
+}
+
+footer a {
+    font: 14px Arial;
+    color: #fff;
+    margin-right: 12px;
+}
+
+footer a:last-child {
+    margin-right: none;
+}
+
+#nav_page {
+    border: 1px solid black;;
+    width: 100%;
+}
